@@ -1,0 +1,70 @@
+#item-information-1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url('../images/banners/banner-image-2-mobile.jpg');
+}
+#item-information-2{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url('../images/banners/banner-image-1-mobile.jpg');
+}
+#item-information-3{
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+background-image: url('../images/banners/banner-image-3-mobile.jpg');
+}
+.single-feature-container{
+#featured-selection-1{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url('../images/featured/featured-1.jpg');
+}
+#featured-selection-2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url('../images/featured/featured-3.jpg');
+}
+#featured-selection-3{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url('../images/featured/featured-2.jpg');
+}
+}
+#custom-interior-case-study{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+background-image: url('../images/interior-mobile.jpg');
+}
+@media screen and (min-width: 991px){
+  #custom-interior-case-study{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  background-image: url('../images/interior.jpg');
+  }
+  #item-information-1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  background-image: url('../images/banners/banner-image-2.jpg');
+  }
+  #item-information-2{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/banners/banner-image-1.jpg');
+  }
+  #item-information-3{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../images/banners/banner-image-3.jpg');
+  }
+}

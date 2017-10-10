@@ -1,0 +1,658 @@
+@import 'fonts';
+@import 'utility';
+@import 'images';
+/**Mobile First**/
+
+html, body{
+  max-width: 100%;
+  font-family: $font-stack;
+    overflow-x: hidden !important;
+}
+ul li{
+  list-style: none;
+}
+
+
+/**Navigation**/
+.contact-header{
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  text-align: right;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  ul{
+    text-align: center;
+    li{
+      display: inline;
+      margin: 0px 0.5rem;
+      a{
+        color: #fff;
+        font-family:$light;
+        font-size: $size-xsml;
+        img{
+          padding: 0;
+          margin: 0 5px;
+          top: 0.2rem;
+          position: relative;
+          height: 1rem;
+        }
+      }
+    }
+  }
+}
+#primary-navigation-list{
+  z-index: 2;
+  height: 100%;
+  margin: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+  ul{
+    padding: 25% 5%;
+    text-align: center;
+    li{
+display: block;
+padding: 3rem;
+      a{
+        color: #fff;
+        font-family:$bold;
+        font-size: $size-lrg;
+      }
+    }
+  }
+}
+#mobile-close{
+  max-width: 35px;
+  max-height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 35px;
+  cursor: pointer;
+}
+#mobile-button{
+  float: right;
+  cursor: pointer;
+  position: relative;
+  top: 25px;
+  img{
+    height: 35px;
+    width: 35px;
+    position: relative;
+  }
+}
+#primary-navigation{
+  background-color: #fff;
+  padding: 0px 20px;
+  height: 80px;
+  overflow: hidden;
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+  position: inline-block;
+}
+#company-logo{
+  width: 100%;
+top: 10px;
+max-width: 100px;
+position: relative;
+  float: left;
+  img{
+    position: relative;
+      padding: 10px 0px;
+    width: auto;
+    height: auto;
+  }
+}
+/****/
+/**Highlights**/
+.item{
+display: inline-block;
+position: relative;
+  height: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  width: 100%;
+  article{
+    padding: 1.8rem;
+    margin: 0;
+    max-width: 400px;
+    z-index: 1;
+    position: relative;
+    h2{
+      line-height: 3rem;
+      margin: 15px 0px;
+      font-size: $size-lrg;
+      font-family: $bold;
+      color: #fff;
+    }
+    p{
+      color: #fff;
+      margin-bottom: 15px;
+      font-family: $regular;
+      font-size: $size-reg;
+    }
+    a{
+      position: relative;
+      margin: 15px 0px;
+      display: inline-block;
+    }
+  }
+}
+/****/
+/**Featured Selection**/
+#featured-selection{
+  margin-top: 10px;
+  clear: both;
+}
+.single-feature-container{
+  width: 100%;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+
+  padding: 5px 2.5px;
+  article{
+        min-height: 300px;
+    position: relative;
+    display: block;
+    .featured-info{
+      padding: 25px;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    h2{
+      font-size: $size-sm;
+      font-family: $bold;
+      margin-bottom: 10px;
+    }
+    p{
+      font-size: $size-reg;
+      font-family: $regular;
+    }
+    a{
+      display: inline-block;
+      margin-top: 15px;
+    }
+  }
+}
+/****/
+/**Car Case Study**/
+  #car-case-study{
+    width: 100%;
+      overflow-x: hidden !important;
+position: relative;
+display: block;
+content: "";
+ display: table;
+ clear: both;
+article{
+  padding: 2rem 2rem ;
+  max-width: 100%;
+  position: relative;
+  left: 0%;
+  z-index: 1 !important;
+  clear: both;
+  h2{
+    font-size: $size-med;
+    font-family:$bold;
+  }
+  h3{
+    font-size: $size-reg;
+    font-family: $semi;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: $size-reg;
+    font-family: $regular;
+
+  }
+  ul{
+    margin-top: 25px;
+  }
+  a{
+    display:inline-block;
+    margin-top: 25px;
+  }
+}
+picture{
+    overflow-x: hidden !important;
+  img{
+
+  display: block;
+width: 100%;
+
+margin: 0 auto;
+  z-index: -1 !important;
+
+  position:relative;
+right: 0;
+}
+}
+  }
+  /****/
+  #custom-interior-case-study{
+          position: relative;
+    article{
+      text-align: center;
+      padding: 150px 25px;
+      max-width: 500px;
+z-index: 1;
+position: relative;
+      margin: 0 auto;
+      h2{
+        font-size: $size-sm;
+        font-family: $bold;
+      }
+      p{
+        margin-bottom: 25px;
+        font-size: $size-reg
+      }
+    }
+  }
+  /**Footer**/
+  footer{
+    height: 100%;
+    display: block;
+    position: relative;
+    background-color: #000;
+    overflow-x: hidden;
+  }
+  .footer-singular-column ul{
+            padding: 0;
+            margin: 0;
+            max-height: 0px;
+            overflow: hidden;
+            // transition: all 0.5s ease-in-out;
+            display: block;
+          }
+          .caret-icon{
+      display: inline-block;
+      position: relative;
+      // color: #696835;
+
+  }
+  .passive{
+    position: relative;
+      transform: rotate(-90deg);
+      transform-origin: center;
+  }
+  .footer-company-info{
+    position: relative;
+    padding: 25px;
+    float: none;
+    img{
+      display: block;
+      margin: 0 auto;
+      max-width: 200px;
+    }
+
+  }
+
+  .footer-sitemap-container{
+position: relative;
+    width: auto;
+    display: inline;
+    width: 70%;
+    max-width: 70%;
+        margin-top: 25px;
+    height: 100%;
+  .footer-singular-column{
+
+    width: auto;
+    display: block;
+    margin: 50px;
+vertical-align: top;
+
+h3{
+  margin: 10px 0px;
+  font-family: $bold;
+  font-size: $size-sm;
+  a{
+      color: #fff;
+  }
+
+}
+ul{
+
+  li{
+
+    padding: 2px 0px;
+    a{
+    color: #fff;
+  }
+  a:hover{
+  text-decoration: underline !important;
+}
+  }
+}
+  }
+}
+.trademark-container{
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-family: $light;
+  font-size: $size-sml;
+  margin-top: 45px;
+}
+@media screen and (min-width: 768px){
+
+
+  #company-logo{
+    width: 100%;
+top: 0;
+  max-width: 150px;
+  position: relative;
+    float: left;
+    img{
+      position: relative;
+        padding: 10px 0px;
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .contact-header{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    ul{
+      text-align: center;
+      li{
+        display: inline;
+        margin: 0px 1rem;
+        a{
+          color: #fff;
+          font-family:$light;
+          font-size: $size-sml;
+          img{
+            padding: 0;
+            margin: 0 5px;
+            top: 0.2rem;
+            position: relative;
+            height: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 991px){
+  #custom-interior-case-study{
+    position: relative;
+    article{
+      z-index: 1;
+      position: relative;
+      text-align: center;
+      padding: 150px 25px;
+      max-width: 850px;
+      margin: 0 auto;
+      h2{
+        font-size: $size-lrg;
+        font-family: $bold;
+        margin-bottom: 15px;
+      }
+      p{
+        margin-bottom: 45px;
+        font-size: $size-med
+      }
+    }
+  }
+  .footer-company-info{
+    width: 100%;
+    position: relative;
+
+    padding: 25px;
+    max-width: 30%;
+    display: inline-block;
+    float: left;
+
+    img{
+      display: block;
+      max-width: 200px;
+          margin-top: 10%;
+    }
+  }
+  .caret-icon{
+    display: none;
+  }
+  .footer-singular-column ul{
+    max-height: 100% !important;
+  }
+  .footer-sitemap-container{
+left: 5%;
+position: relative;
+    width: 50%;
+    display: inline-block;
+    height: 100%;
+  .footer-singular-column{
+    margin-top: 2%;
+    width: 30%;
+    display: inline-block;
+vertical-align: top;
+margin: 0;
+
+h3{
+  margin: 10px 0px;
+  font-family: $bold;
+  font-size: $size-sm;
+  a{
+      color: #fff;
+  }
+
+}
+ul{
+  li{
+    padding: 2px 0px;
+    a{
+    color: #fff;
+  }
+  a:hover{
+  text-decoration: underline !important;
+}
+  }
+}
+  }
+  .footer-singular-column:last-child{
+    float: right;
+  }
+}
+  .single-feature-container{
+    width: 33.12%;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+
+    padding: 5px 2.5px;
+    article{
+          min-height: 450px;
+      position: relative;
+      display: block;
+      .featured-info{
+        padding: 25px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      h2{
+        font-size: $size-sm;
+        font-family: $bold;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: $size-reg;
+        font-family: $regular;
+      }
+      a{
+        display: inline-block;
+        margin-top: 15px;
+      }
+    }
+  }
+
+    .single-feature-container:first-child{
+padding-left: 8px;
+    }
+    .single-feature-container:last-child{
+      padding-right: 5px;
+      float: right;
+    }
+  .item{
+    height: 100%;
+    min-height: 800px;
+    max-height: 800px;
+    width: 100%;
+    article{
+      padding: 0;
+      background-color: transparent;
+      margin: 8rem;
+      max-width: 380px;
+      position: relative;
+      h2{
+        line-height: 4.5rem;
+        margin: 15px 0px;
+        font-size: $size-xlrg;
+        font-family: $bold;
+        color: #000;
+      }
+      p{
+        margin-bottom: 15px;
+        font-family: $regular;
+        font-size: $size-sm;
+        color: #000;
+      }
+      a{
+        position: relative;
+        margin: 15px 0px;
+        display: inline-block;
+      }
+    }
+  }
+  .contact-header{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    text-align: right;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+    ul{
+      text-align: right;
+    }
+  }
+  #primary-navigation-list{
+    float: right;
+
+    width: auto;
+    position: relative;
+    background-color: transparent;
+    visibility: visible;
+  opacity: 1.0;
+  display: block !important;
+    ul{
+      padding: 0;
+      position: relative;
+  margin-top: 10px;
+      text-align: right;
+      li{
+
+        margin-top: 25px;
+        display: inline;
+
+        a{
+position: relative;
+top: 15px;
+                  height: 100%;
+        padding: 25% 10px;
+          color: #000;
+          font-family:$bold;
+          font-size: $size-sem;
+        }
+      }
+    }
+  }
+    #primary-navigation-list ul li:hover{
+      color: #fff;
+      background-color: #000;
+    }
+    #primary-navigation-list ul li:hover a{
+      color: #fff;
+
+    }
+}
+@media screen and (min-width: 1316px){
+  #car-case-study{
+    overflow-x: hidden !important;
+    width: auto;
+position: relative;
+display: block;
+content: "";
+ display: table;
+ clear: both;
+article{
+  padding: 10rem 5rem;
+  max-width: 50%;
+  position: relative;
+  left: 10%;
+  z-index: 1 !important;
+  clear: both;
+  h2{
+    font-size: $size-xlrg;
+    font-family:$bold;
+  }
+  h3{
+    font-size: $size-med;
+    font-family: $semi;
+    margin-bottom: 15px;
+  }
+  p{
+    font-size: $size-sm;
+    font-family: $regular;
+
+  }
+  ul{
+    margin-top: 25px;
+  }
+  a{
+    display:inline-block;
+    margin-top: 25px;
+  }
+}
+picture{  overflow-x: hidden !important;
+  img{
+  overflow-x: hidden !important;
+  display: inline-block;
+
+max-width: 991px;
+margin-right: 5rem;
+  z-index: -1 !important;
+    top: 18%;
+    bottom: 15%;
+  position:absolute;
+  opacity: 0;
+right: -1000px;
+}
+}
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+}

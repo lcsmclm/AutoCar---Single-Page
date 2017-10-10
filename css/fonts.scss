@@ -1,0 +1,87 @@
+
+@font-face {
+	font-family: 'source_sans_problack';
+	src: url('../includes/fonts/sourcesanspro-black-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-black-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_problack_italic';
+	src: url('../includes/fonts/sourcesanspro-blackit-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-blackit-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_probold';
+	src: url('../includes/fonts/sourcesanspro-bold-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_probold_italic';
+	src: url('../includes/fonts/sourcesanspro-boldit-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-boldit-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_proextralight';
+	src: url('../includes/fonts/sourcesanspro-extralight-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-extralight-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_proXLtIt';
+	src: url('../includes/fonts/sourcesanspro-extralightit-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-extralightit-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_proitalic';
+	src: url('../includes/fonts/sourcesanspro-it-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-it-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_prolight';
+	src: url('../includes/fonts/sourcesanspro-light-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_prolight_italic';
+	src: url('../includes/fonts/sourcesanspro-lightit-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-lightit-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_proregular';
+	src: url('../includes/fonts/sourcesanspro-regular-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_prosemibold';
+	src: url('../includes/fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'source_sans_proSBdIt';
+	src: url('../includes/fonts/sourcesanspro-semiboldit-webfont.woff2') format('woff2'), url('../includes/fonts/sourcesanspro-semiboldit-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+$size-xsml: 0.5rem;
+$size-sml: 0.8rem;
+$size-reg: 1rem;
+$size-sem: 1.25rem;
+$size-sm: 1.5rem;
+$size-med: 2rem;
+$size-lrg: 3rem;
+$size-xlrg: 5rem;
+$light: 'source_sans_prolight';
+$regular: 'source_sans_proregular';
+$semi: 'source_sans_probold';
+$bold: 'source_sans_prosemibold';
+$italic: 'source_sans_proitalic';
+$font-stack:  'source_sans_proregular', Helvetica, sans-serif;
